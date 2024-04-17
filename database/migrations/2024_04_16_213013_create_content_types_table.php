@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('content_types', function (Blueprint $table) {
             $table->id();
             $table->longtext("contenu");
+            $table->string("title");
             $table->timestamps();
         });
     }

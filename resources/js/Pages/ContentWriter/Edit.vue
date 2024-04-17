@@ -2,6 +2,7 @@
 import { defineProps, reactive, onMounted } from 'vue'
 import { useForm, Link } from '@inertiajs/vue3'
 import InputError from "@/Components/InputError.vue";
+import InputLabel from "@/Components/InputLabel.vue";
 import TextInput from "@/Components/TextInput.vue";
 import { ref } from "vue";
 
@@ -26,20 +27,22 @@ const props = defineProps({
 	      }
 
     })
-  }
+  },
+  content: Object
 })
 const posted = ref(false)
 const 
   editForm= useForm({
-    content: "default content",
-    title: ""
+    content: props.content.contenu,
+    title: props.content.title,
+    id: props.content.id
 })
+
 const postContent = () => {
-    console.log("the form content", editForm.data())
     editForm.clearErrors()
     editForm.processing = true
-    axios.post(route('postContent'), editForm.data()).then(r => {
-        location.reload()
+    axios.post(route('edit.content', props.content.id), editForm.data()).then(r => {
+        // location.reload()
     }).catch(e => {
         if (e.response && e.response.status === 422) {
             editForm.setError(e.response.data.errors)
@@ -80,7 +83,6 @@ const postContent = () => {
     </header>
 <section class="max-w-[1400px] w-full px-4 mt-16 mx-auto">
     <div class="mb-4">
-        
         <InputLabel class="block">Titre du contenu</InputLabel>
         <TextInput v-model="editForm.title" type="text" />
         <InputError :message="editForm.errors.title" />

@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\EditorController;
+use App\Models\ContentType;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -19,8 +20,12 @@ Route::get('/welcome', function () {
 Route::get('/', [MainController::class, 'index'])->name("main");
 
 Route::get('/post', [EditorController::class, 'index'])->name("editor");
-
+Route::get('/postList', [EditorController::class, 'lists'])->name("content.list");
 Route::post('/postContent', [EditorController::class, 'create'])->name("postContent");
+Route::get('/postContent', [EditorController::class, 'createView'])->name("post.Content");
+Route::get('/ContentShow/{id}', [EditorController::class, 'show'])->name('show.content');
+Route::post('/ContentEdit/{id}', [EditorController::class, 'update'])->name('edit.content');
+Route::delete('/ContentDelete/{id}', [EditorController::class, 'destroy'])->name('destroy.content');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
