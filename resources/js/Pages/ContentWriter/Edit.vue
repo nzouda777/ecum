@@ -42,7 +42,7 @@ const postContent = () => {
     editForm.clearErrors()
     editForm.processing = true
     axios.post(route('edit.content', props.content.id), editForm.data()).then(r => {
-        // location.reload()
+        location.reload()
     }).catch(e => {
         if (e.response && e.response.status === 422) {
             editForm.setError(e.response.data.errors)

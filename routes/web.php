@@ -19,7 +19,13 @@ Route::get('/welcome', function () {
 
 Route::get('/', [MainController::class, 'index'])->name("main");
 
-Route::get('/post', [EditorController::class, 'index'])->name("editor");
+
+Route::get('/dashboard', function () {
+    return Inertia::render('ContentWriter/Content');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/post', [EditorController::class, 'index'])->name("editor");
 Route::get('/postList', [EditorController::class, 'lists'])->name("content.list");
 Route::post('/postContent', [EditorController::class, 'create'])->name("postContent");
 Route::get('/postContent', [EditorController::class, 'createView'])->name("post.Content");
@@ -27,11 +33,8 @@ Route::get('/ContentShow/{id}', [EditorController::class, 'show'])->name('show.c
 Route::post('/ContentEdit/{id}', [EditorController::class, 'update'])->name('edit.content');
 Route::delete('/ContentDelete/{id}', [EditorController::class, 'destroy'])->name('destroy.content');
 
-Route::get('/dashboard', function () {
-    return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::middleware('auth')->group(function () {
+
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
