@@ -122,7 +122,7 @@ const showClause = ref(false)
             </div>
         </div>
     </section> -->
-    <section class="">
+    <section class="mx-auto">
         <div class="" v-for="(content, index) in contenu" :key="index">
             <div v-html="content.contenu">
                 
