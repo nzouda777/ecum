@@ -6,10 +6,12 @@ import { ref } from "vue";
 const props = defineProps({
     contenu: Object
 })
+
 const showMethod = ref(false)
 const showClause = ref(false)
 </script>
 <template>
+
     <!-- <header class="border-b">
         <div class="max-w-[1400px] py-2 px-4 mx-auto ">
             <div class="flex items-center justify-between">
