@@ -108,14 +108,14 @@ const showClause = ref(false)
                 </h1>
                 
                 <div class="flex sm:flex-row flex-col justify-evenly gap-2 items-center">
-                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full hover:bg-sky-400 hover:border-sky-400 hover:text-white" href="#avantage">
-                        Avantages
+                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full hover:bg-sky-400 hover:border-sky-400 hover:text-white" href="#type">
+                        TYPES DE COLLAGÈNE
                     </Link>
-                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full hover:bg-sky-400 hover:border-sky-400 hover:text-white" href="#eviter">
-                        À éviter
+                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full hover:bg-sky-400 hover:border-sky-400 hover:text-white" href="#mabo">
+                        MARIN OU BOVIN
                     </Link>
-                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full hover:bg-sky-400 hover:border-sky-400 hover:text-white" href="#best">
-                        Meilleur de 2024
+                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full hover:bg-sky-400 hover:border-sky-400 hover:text-white" href="#choose">
+                        QUEL CHOISIR
                     </Link>
                 </div>
             </div>
