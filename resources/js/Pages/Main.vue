@@ -92,7 +92,7 @@ const showClause = ref(false)
             </div>
         </div>
     </nav>
-    <section class="max-w-[1400px] py-2 px-4 mx-auto mt-8">
+    <section class="max-w-[1500px] py-2 px-4 mx-auto mt-8">
         <div class="grid lg:grid-cols-2 grid-cols-1 gap-8 place-center items-center  ">
             <div class="">
                 <img 
@@ -122,7 +122,7 @@ const showClause = ref(false)
             </div>
         </div>
     </section>
-    <section class="mx-auto">
+    <section class="max-w-[800px] py-2 px-4 mx-auto mt-8 ">
         <div class="" v-for="(content, index) in contenu" :key="index">
             <div v-html="content.contenu">
                 
