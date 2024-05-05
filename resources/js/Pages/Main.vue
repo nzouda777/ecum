@@ -104,19 +104,17 @@ const showClause = ref(false)
             </div>
             <div class=" space-y-12">
                 <h1 class="text-center uppercase text-5xl text-indigo-900 w-12/12 mx-auto font-bold font-serif">
-                    LE COLLAGÈNE: LE SECRET DES STARS POUR UNE BEAUTÉ SANS ÂGE
+                    CHOISIR LE MEILLEUR COLLAGÈNE MARIN : QUEL TYPE, QUELLE FORME ET POURQUOI?
                 </h1>
-                <p class="text-lg text-center font-semibold text-indigo-800">
-                    Comment choisir sa poudre en 2024 ?
-                </p>
+                
                 <div class="flex sm:flex-row flex-col justify-evenly gap-2 items-center">
-                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full hover:bg-sky-400 hover:border-sky-400 hover:text-white" href="#">
+                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full hover:bg-sky-400 hover:border-sky-400 hover:text-white" href="#avantage">
                         Avantages
                     </Link>
-                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full hover:bg-sky-400 hover:border-sky-400 hover:text-white" href="#">
+                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full hover:bg-sky-400 hover:border-sky-400 hover:text-white" href="#eviter">
                         À éviter
                     </Link>
-                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full hover:bg-sky-400 hover:border-sky-400 hover:text-white" href="#">
+                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full hover:bg-sky-400 hover:border-sky-400 hover:text-white" href="#best">
                         Meilleur de 2024
                     </Link>
                 </div>
