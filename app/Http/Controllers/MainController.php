@@ -10,9 +10,7 @@ class MainController extends Controller
 {
     //
     public function index() {
-        // return Inertia::render('Main', [
-        //     'contenu' => ContentType::all()
-        // ]);
+        
     }
     
     public function blogs(string $slug) {
