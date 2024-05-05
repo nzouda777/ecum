@@ -17,7 +17,8 @@ Route::get('/welcome', function () {
     ]);
 });
 
-Route::get('/', [MainController::class, 'index'])->name("main");
+// Route::get('/', [MainController::class, 'index'])->name("main");
+Route::get('/blog/{slug}', [MainController::class, 'blogs'])->name("redirected");
 
 
 Route::get('/dashboard', function () {

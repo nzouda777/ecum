@@ -11,19 +11,25 @@ class EditorController extends Controller
 {
     //
     public function index() {
-        return Inertia::render("ContentWriter/Content");
+        return Inertia::render("ContentWriter/Content", [
+            
+        ]);
     }
     public function create(Request $req) {
+        $t = str_replace(" ", "-", $req->title);
+
         $req->validate([
             'content' => "required",
             'title' => 'required'
         ]);
-       
+        
         $f = $req->hasFile('content') ? $req->file('content')->storePublicly('uploads') : $req->content;
-        ContentType::create([
+        $r = ContentType::create([
             'contenu' => $req->content,
-            'title' => $req->title
+            'title' => $req->title,
+            'slug' => $t
         ]);
+        
     }
     public function createView () {
         return Inertia::render('ContentWriter/Content');
