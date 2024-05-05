@@ -12,17 +12,17 @@ const showClause = ref(false)
 </script>
 <template>
 
-    <!-- <header class="border-b">
+     <header class="border-b">
         <div class="max-w-[1400px] py-2 px-4 mx-auto ">
             <div class="flex items-center justify-between">
-                <Link href="http://ecumecollagen.com/" >
+                <Link href="#" >
                     <img 
-                        src="https://ecumecollagen.com/cdn/shop/files/ecume_logo_3_380x.png?v=1681176462" alt=""
-                        class="h-24"
+                        src="https://lh3.google.com/u/0/d/1-9_8ddGCMRcw1u2NgOgARYneDcQmX8tl=w1297-h948-iv1" alt=""
+                        class="h-16 w-96 object-cover"
                     >
                 </Link>
                 <div class="uppercase font-regular lg:text-lg text-base">
-                    publireportage
+                    
                 </div>
             </div>
         </div>
@@ -121,7 +121,7 @@ const showClause = ref(false)
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <section class="mx-auto">
         <div class="" v-for="(content, index) in contenu" :key="index">
             <div v-html="content.contenu">
@@ -129,7 +129,7 @@ const showClause = ref(false)
             </div>
         </div>
     </section>
-    <!-- <footer class="bg-sky-500 py-10 px-4">
+     <footer class="bg-sky-500 py-10 px-4">
         <div class="max-w-4xl mx-auto text-center space-y-2">
             <h2 class="text-xl text-white font-regular">2024 mieux-consommer.net</h2>
 
@@ -146,5 +146,5 @@ const showClause = ref(false)
             <a href="#" class="underline">Protection des donnees</a> &nbsp;|&nbsp;
             <a href="#" class="underline">Contactez-nous</a> 
         </div>
-    </footer> -->
+    </footer>
 </template>
