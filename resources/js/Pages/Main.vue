@@ -53,7 +53,7 @@ const showClause = ref(false)
                             </div>
                             <div class="py-2 px-4">
                                 <p>
-                                    Les produits apparaissant sur ce site sont la propriété de sociétés dont nous pouvons recevoir une compensation ou dans lesquelles nous avons une participation. Cette compensation peut avoir un impact sur la manière dont les produits sont affichés, y compris l'ordre dans lequel ils apparaissent. Le classement et l'ordre des produits sur le site sont susceptibles d'être modifiés et le site ne propose pas une liste exhaustive de tous les produits disponibles du marché dans leurs catégories respectives. D’autres éléments ont également un impact sur les classements areil de l'utilisateur, le système d'exploitation, la localisation, le jour de la semaine, l'heure de la journée et les données issues des cookies ou toute donnée générée directement de manière automatique sur ce site.
+                                    Les produits présentés sur ce site appartiennent à des sociétés avec lesquelles nous avons des partenariats ou des participations. Ces relations peuvent influencer la façon dont les produits sont présentés, y compris leur ordre d'apparition. Les classements et l'ordre des produits peuvent être sujets à des modifications, et le site peut ne pas offrir une liste exhaustive de tous les produits disponibles sur le marché dans chaque catégorie. D'autres facteurs, tels que les préférences de l'utilisateur, le système d'exploitation, la localisation, le jour de la semaine, l'heure de la journée, ainsi que les données des cookies ou autres données automatiquement collectées sur ce site, peuvent également influencer les classements.
                                 </p>
                             </div>
                         </Modal>
@@ -78,11 +78,12 @@ const showClause = ref(false)
                             </div>
                             <div class="py-2 px-4">
                                 <p>
-                                    Nos produits les mieux classés sont évalués sur la base de nos propres vues, connaissances et opinions. Nous n'examinons pas l'ensemble de tous les produits d'une catégorie donnée. Toutes les opinions exprimées sur ce site sont les nôtres propres. 
+                                    Nos classements des meilleurs produits sont basés sur nos propres perspectives, connaissances et opinions. Nous ne passons pas en revue tous les produits disponibles dans une catégorie donnée. Toutes les opinions exprimées sur ce site sont les nôtres.
+
                                 </p>
                                 <br>
                                 <p>
-                                    Nous sommes en mesure de vous fournir nos comparaisons gratuites car nous recevons une rémunération pour vous recommander des produits de la part d'un certain nombre d'entreprises, lesquelles sont évaluées et comparées sur notre site. Nous avons également des intérêts dans certaines catégories avec des produits qui nous appartiennent étant cités comme meilleurs choix.
+                                    Nous sommes en mesure de fournir des comparaisons gratuites grâce à une rémunération que nous recevons pour recommander des produits de la part de plusieurs entreprises, qui sont évaluées et comparées sur notre site. De plus, nous avons des intérêts dans certaines catégories où nos propres produits sont mentionnés comme les meilleurs choix en matière de santé.
                                 </p>
                             </div>
                         </Modal>
