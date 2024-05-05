@@ -52,9 +52,12 @@ class EditorController extends Controller
             'title' => 'required',
             'content' => 'required'
         ]);
+        
+        $t = str_replace(" ", "-", $req->title);
         $id->update([
             'title' => $req->title,
-            'contenu' => $req->content
+            'contenu' => $req->content,
+            'slug' => $t
         ]);
     }
     public function destroy(ContentType $id){
