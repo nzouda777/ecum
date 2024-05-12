@@ -209,13 +209,13 @@ const showClause = ref(false)
                                 </svg>
 
                             </div>
-                            <p class="text-sm">28 Avis</p>
+                            <p class="text-sm">24 Avis</p>
                         </div>
                         <p class="text-sm font-light text-gray-600">
                             BOÎTE MENSUELLE
                         </p>
                         <p class="text-xs font-light text-gray-600">
-                            24 STICKS
+                            28 STICKS
                         </p>
                     </div>
                     <div class="">
