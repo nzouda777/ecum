@@ -3,6 +3,7 @@
 @tailwind utilities;
 *{
     font-family: Verdana, Geneva, sans-serif !important;
+    scroll-behavior: smooth;
 }
 #box3306d0ce-c927-0a03-69ef-8da57b047326 .cvt-1568371626-element-body {
     background-image: url(https://lh3.google.com/u/0/d/1-9_8ddGCMRcw1u2NgOgARYneDcQmX8tl=w1297-h948-iv1);

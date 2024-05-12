@@ -114,13 +114,13 @@ const showClause = ref(false)
                 </h1>
                 
                 <div class="flex sm:flex-row flex-col justify-evenly gap-2 items-center">
-                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full hover:bg-sky-400 hover:border-sky-400 hover:text-white" href="#type">
+                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full" href="#type">
                         TYPES DE COLLAGÈNE
                     </Link>
-                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full hover:bg-sky-400 hover:border-sky-400 hover:text-white" href="#mabo">
+                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full" href="#mabo">
                         MARIN OU BOVIN
                     </Link>
-                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full hover:bg-sky-400 hover:border-sky-400 hover:text-white" href="#choose">
+                    <Link class="border border-indigo-800 sm:w-52 w-full text-center text-indigo-800 inline-block px-4 py-3 rounded-full" href="#choose">
                         QUEL CHOISIR
                     </Link>
                 </div>
@@ -179,4 +179,4 @@ const showClause = ref(false)
             <a href="#" class="underline">Contactez-nous</a> 
         </div>
     </footer>
-</template>
+</template>Le meilleur collagène selon nous
