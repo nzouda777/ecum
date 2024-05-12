@@ -23,7 +23,7 @@ const showClause = ref(false)
             <div class="flex items-center justify-between">
                 <Link href="#" >
                     <img 
-                        src="https://lh3.google.com/u/0/d/1-9_8ddGCMRcw1u2NgOgARYneDcQmX8tl=w1297-h948-iv1" alt=""
+                        src="https://cdn.shopify.com/s/files/1/0721/1453/6725/files/logo.com_editor_colors.png?v=1715540522" alt=""
                         class="h-16 w-96 object-cover"
                     >
                 </Link>
