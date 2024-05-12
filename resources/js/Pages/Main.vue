@@ -165,15 +165,15 @@ const showClause = ref(false)
         <div class="max-w-4xl mx-auto text-center space-y-2">
             <h2 class="text-xl text-white font-regular">2024 meilleur-choix-sante.fr</h2>
 
-            <p class="text-white">Tous les droits sont réservés.</p> 
+            <p class="md:text-base text-sm text-white">Tous les droits sont réservés.</p> 
 
-<p class="text-white">Les marques utilisées sur notre site web appartiennent à leurs propriétaires respectifs et il n'y a aucune intention de soutenir notre site web ou nos services, que ce soit implicitement ou explicitement. Les classements peuvent être influencés par la relation entre Mieux Consommer et nos meilleurs choix.
+<p class="text-white md:text-base text-sm">Les marques utilisées sur notre site web appartiennent à leurs propriétaires respectifs et il n'y a aucune intention de soutenir notre site web ou nos services, que ce soit implicitement ou explicitement. Les classements peuvent être influencés par la relation entre Mieux Consommer et nos meilleurs choix.
 </p>
-<p class="text-white mt-2">
+<p class="text-white mt-2 md:text-base text-sm">
 [1] Nous avons une relation financière avec certains de nos meilleurs choix et partenaires.
 </p>
         </div>
-        <div class="flex items-center justify-center text-white text-lg mt-4 mx-auto max-w-4xl">
+        <div class="flex items-center justify-center text-white text-xs md:text-lg mt-4 mx-auto max-w-4xl">
             <a href="#" class="underline">Condition generale</a> &nbsp;|&nbsp;
             <a href="#" class="underline">Protection des donnees</a> &nbsp;|&nbsp;
             <a href="#" class="underline">Contactez-nous</a> 
