@@ -162,7 +162,7 @@ const showClause = ref(false)
             </a>
         </div>
     </section>
-     <footer class="bg-sky-500 py-10 px-4">
+     <footer class="bg-[#3fa67c] py-10 px-4">
         <div class="max-w-4xl mx-auto text-center space-y-2">
             <h2 class="text-xl text-white font-regular">2024 meilleur-choix-sante.fr</h2>
 
