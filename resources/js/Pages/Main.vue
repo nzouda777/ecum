@@ -1,10 +1,16 @@
 <script setup>
 import { Link } from "@inertiajs/vue3";
 import Modal from "@/Components/Modal.vue";
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 
 const props = defineProps({
     contenu: Object
+})
+
+onMounted(() => {
+    document.querySelectorAll("[data-f-id]").forEach(el => {
+                el.style.display = "none"
+            })
 })
 
 const showMethod = ref(false)
