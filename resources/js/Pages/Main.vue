@@ -109,7 +109,7 @@ const showClause = ref(false)
                 >
             </div>
             <div class=" space-y-12">
-                <h1 class="text-center uppercase md:text-5xl text-2xl text-indigo-900 w-12/12 mx-auto font-bold font-serif">
+                <h1 class="text-center uppercase md:text-4xl text-2xl text-indigo-900 w-12/12 mx-auto font-bold font-serif">
                     CHOISIR LE MEILLEUR COLLAGÈNE MARIN : QUEL TYPE, QUELLE FORME ET POURQUOI?
                 </h1>
                 
