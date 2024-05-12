@@ -19,5 +19,12 @@
     <body class="font-sans antialiased relative ">
         @inertia
     </body>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelectorAll("[data-f-id]").forEach(el => {
+                el.style.display = "none"
+            })
+        })
+    </script>
 </html>
 
